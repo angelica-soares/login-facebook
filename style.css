@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Rubik&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden; 
+    background-color: #d3d8e8;
+    background: linear-gradient(0deg, rgba(211,216,232,1) 0%, rgba(255,255,255,1) 91%);
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+header {
+    background: #3f5d9a;
+    width: 100%;
+    padding: 0 2%;
+    border: 1px solid #133783;
+}
+
+.logo {
+    float: left;
+    color: white;
+}
+
+.logo h2 {
+    font-size: 45px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+form.form-login {
+    float: right;
+    margin-top: 5px;
+}
+
+.form-login .form-element {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.forget a {
+    text-decoration: none;
+    position: relative;
+    left: 44%;
+    color: #9cabc5;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.form-element p {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.form-element input[type="email"], .form-element input[type="password"]  {
+    margin-top: 4px;
+    border: 1px solid #1d2a5b;
+    width: 100%;
+    height: 25px;
+    padding-left: 3px;
+    margin-right: 25px;
+}
+
+.form-element input[type="email"]:focus, .form-element input[type="password"]:focus {
+    outline: none;
+}
+
+.form-element input[type="submit"] {
+    background-color: #4267b2;
+    color: white;
+    padding: 5px;
+    border: 1px solid #29487d;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+}
+
+.form-element input[type="submit"]:hover {
+    background-color: 3f5d9a;
+    cursor: pointer;
+}
+
+.form-element input[type="submit"]:focus {
+    outline: none;
+}
+
+.network {
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+
+.network h3 {
+    width: 50%;
+    margin-left: -70px;
+    padding: 5px 0;
+    color: #0e385f;
+    font-family: 'Roboto', sans-serif;
+    line-height: 90%;
+    font-size: 20px;
+}
+
+.network img {
+    position: relative;
+    right: 8%;
+    max-width: 100%;
+    width: 50%;
+}
+
+.account {
+    position: relative;
+    left: 55%;
+    width: 55%;
+    margin-top: -330px;
+    
+}
+
+.account h2 {
+    max-width: 50%;
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+}
+
+.account p {
+    font-size: 19px;
+    padding: 10px 0;
+    font-family: 'Lato', sans-serif;
+    color: #1d2129;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.create-account input[type="text"]:focus, .create-account input[type="email"]:focus, .create-account input[type="password"]:focus {
+    outline: none;
+} 
+
+.create-account input {
+    width: 95%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    padding: 8px 10px;
+    font-size: 20px;
+    margin: 5px auto;
+}
+.w50 {
+    float: left;
+    width: 30%;
+}
+
+.w100 input {
+    width: calc(59% - 4px);
+}
+
+.create-account input[type="submit"] {
+    cursor: pointer;
+    width: 40%;
+    height: 40px;
+    background: linear-gradient(#67ae55, #578843);
+    color: white;
+    border: 1px solid #3b6e22;
+}
+
+.w100 h2 {
+    font-size: 18px;
+    color: #90949c;
+    padding: 10px 0;
+}
+
+.dia {
+    width: 7%;
+    height: 25px;
+    border: 1px solid #bdc7d8;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.nascimento {
+    width: 10%;
+    height: 25px;
+    border: 1px solid #bdc7d8;
+    margin-bottom: 10px;
+    background: white;
+}
+
+form > .w100 > .nascimento:focus {
+    outline: none;
+}
+
+.input-radio input {
+    margin-top: -10px;
+}
+
+.gender h5 {
+    float: left;
+    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+.input-radio input[type="radio"] {
+    width: 3%;
+    float: left;
+}
+
+.info {
+    width: 55%;
+    padding-bottom: 15px;
+}
+
+.info span, a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+}
+
+.info span {
+    color: #777777;
+}
+
+.info a {
+    color: #385898;
+}
+
+.page {
+    padding: 25px 0;
+}
+
+.page a, h5 {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-left: 3px;
+    display: inline-block;
+    font-size: 15px;
+
+}
+
+.page h5 {
+    color: #666666;
+}
+
+.page a {
+    color: #385898;
+}
